@@ -1,0 +1,10 @@
+/* Resets predefined stylings on most elements. Border-box allows us to include the padding and border in an element's total width and height. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Add Font type */
+body {
+}
