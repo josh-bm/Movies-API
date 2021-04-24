@@ -8,3 +8,18 @@
 /* Add Font type */
 body {
 }
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
