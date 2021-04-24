@@ -61,11 +61,18 @@ fetch(url)
             modal.style.display = "block";
             document.getElementById("modalImg").src = obj.Poster;
             document.getElementById("modalHeader").innerHTML = obj.Title;
-
+            document.getElementById("modalDirector").innerHTML =
+              "Director: " + obj.Director;
+            document.getElementById("modalGenre").innerHTML =
+              "Genre: " + obj.Genre;
+            document.getElementById("modalYear").innerHTML =
+              "Year: " + obj.Year;
+            document.getElementById("modalimdbRating").innerHTML =
+            "&#9733 " + obj.imdbRating;
+            document.getElementById("modalPlot").innerHTML =
+              "Plot: " + obj.Plot;
             document.getElementById("modalTrailer").src = movie.Trailer;
-            document.getElementById("modalText").innerHTML = obj.Plot;
           };
-
           // When the user clicks on <span> (x), close the modal
           span.onclick = function () {
             modal.style.display = "none";
