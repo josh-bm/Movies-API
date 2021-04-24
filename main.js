@@ -25,25 +25,18 @@ fetch(url)
   })
   //then we can work with the JSON data
   .then((data) => {
-    //console.log(data);
-
     // We iterate through all the objects
     data.forEach((movie) => {
       //Create a div with a card class
-      //console.log(movie.Title);
       const card = document.createElement("div");
       card.setAttribute("class", "card");
 
       //Create an h1 and set the text content to the film's title
       const h1 = document.createElement("h1");
-      //TODO: set the h1 to contain the title of the movie
       h1.textContent = movie.Title;
 
       // Each card will contain an h1 and a p
       card.appendChild(h1);
-      //card.appendChild(p);
-
-      // TODO: Append the cards to the container element
       container.appendChild(card);
 
       let api = movie.Url;
@@ -52,8 +45,38 @@ fetch(url)
           return response.json();
         })
         .then((obj) => {
-          console.log(obj);
-          console.log(obj.Plot);
+          //Insert Image
+          const img = document.createElement("img");
+          img.src = obj.Poster;
+          card.appendChild(img);
+
+          // Get the modal
+          let modal = document.getElementById("myModal");
+
+          // Get the <span> element that closes the modal
+          let span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks on the button, open the modal
+          card.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("modalImg").src = obj.Poster;
+            document.getElementById("modalHeader").innerHTML = obj.Title;
+
+            document.getElementById("modalTrailer").src = movie.Trailer;
+            document.getElementById("modalText").innerHTML = obj.Plot;
+          };
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function () {
+            modal.style.display = "none";
+          };
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function (event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          };
         })
         .catch((err) => {
           console.log("Something went wrong");

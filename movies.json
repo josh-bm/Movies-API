@@ -1,10 +1,27 @@
 [
   {
     "Title": "Armageddon",
-    "Url": "https://www.omdbapi.com/?t=Armageddon&apikey=789d41d5"
+    "Url": "https://www.omdbapi.com/?t=Armageddon&apikey=789d41d5",
+    "Trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8"
   },
   {
     "Title": "The Avengers",
-    "Url": "https://www.omdbapi.com/?i=tt0848228&apikey=789d41d5"
+    "Url": "https://www.omdbapi.com/?i=tt0848228&apikey=789d41d5",
+    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+  },
+  {
+    "Title": "Godzilla vs. Kong",
+    "Url": "https://www.omdbapi.com/?i=tt5034838&apikey=789d41d5",
+    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+  },
+  {
+    "Title": "Wonder Woman 1984",
+    "Url": "https://www.omdbapi.com/?i=tt7126948&apikey=789d41d5",
+    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+  },
+  {
+    "Title": "Zack Snyder's Justice League",
+    "Url": "https://www.omdbapi.com/?i=tt12361974&apikey=789d41d5",
+    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
   }
 ]
