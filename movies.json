@@ -23,5 +23,33 @@
     "Title": "Zack Snyder's Justice League",
     "Url": "https://www.omdbapi.com/?i=tt12361974&apikey=789d41d5",
     "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+  },
+  {
+    "Title": "Guardians of the Galaxy 2",
+    "Url": "http://www.omdbapi.com/?i=tt3896198&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/watch?v=dW1BIid8Osg"
+  },
+  {
+    "Title": "Black Panther",
+    "Url": "http://www.omdbapi.com/?i=tt1825683&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/watch?v=xjDjIWPwcPU"
+  },
+  {
+    "Title": "Captain America",
+    "Url": "http://www.omdbapi.com/?i=tt0458339&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/watch?v=JerVrbLldXw"
+  },
+  {
+    "Title": "Captain Marvel",
+    "Url": "http://www.omdbapi.com/?i=tt4154664&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/watch?v=Z1BCujX3pw8"
+  },
+  {
+    "Title": "Logan",
+    "Url": "http://www.omdbapi.com/?i=tt3315342&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/watch?v=Div0iP65aZo"
   }
+  
+
+  
 ]
