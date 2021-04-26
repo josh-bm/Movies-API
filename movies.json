@@ -20,7 +20,7 @@
     "Trailer": "https://www.youtube.com/embed/1Q8fG0TtVAY"
   },
   {
-    "Title": "Zack Snyder's Justice League",
+    "Title": "Justice League",
     "Url": "https://www.omdbapi.com/?i=tt12361974&apikey=789d41d5",
     "Trailer": "https://www.youtube.com/embed/0QmSF7WUyN0"
   },
@@ -35,9 +35,9 @@
     "Trailer": "https://www.youtube.com/embed/xjDjIWPwcPU"
   },
   {
-    "Title": "Captain America",
-    "Url": "http://www.omdbapi.com/?i=tt0458339&apikey=3676265c",
-    "Trailer": "https://www.youtube.com/embed/JerVrbLldXw"
+    "Title": "Thor: Ragnarok",
+    "Url": "http://www.omdbapi.com/?i=tt3501632&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/ue80QwXMRHg"
   },
   {
     "Title": "Captain Marvel",
