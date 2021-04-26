@@ -79,14 +79,5 @@ fetch(url)
     });
   })
   .catch((err) => {
-    // Do something for an error here
-    const errorMessage = document.createElement("marquee");
-    errorMessage.textContent = `Gah, it's not working!`;
-    app.appendChild(errorMessage);
+    console.log("Something went wrong");
   });
-
-// Create a p and set the text content to the film's description
-// const p = document.createElement("p");
-// TODO: limit the movie description to 300 chars, and then output it to p
-// film.Plot = film.Plot.substring(0, 300); // Limit to 300 chars
-// p.textContent = film.Plot;
