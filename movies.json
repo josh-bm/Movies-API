@@ -26,30 +26,27 @@
   },
   {
     "Title": "Guardians of the Galaxy 2",
-    "Url": "http://www.omdbapi.com/?i=tt3896198&apikey=3676265c",
+    "Url": "https://www.omdbapi.com/?i=tt3896198&apikey=3676265c",
     "Trailer": "https://www.youtube.com/embed/dW1BIid8Osg"
   },
   {
     "Title": "Black Panther",
-    "Url": "http://www.omdbapi.com/?i=tt1825683&apikey=3676265c",
+    "Url": "https://www.omdbapi.com/?i=tt1825683&apikey=3676265c",
     "Trailer": "https://www.youtube.com/embed/xjDjIWPwcPU"
   },
   {
     "Title": "Thor: Ragnarok",
-    "Url": "http://www.omdbapi.com/?i=tt3501632&apikey=3676265c",
+    "Url": "https://www.omdbapi.com/?i=tt3501632&apikey=3676265c",
     "Trailer": "https://www.youtube.com/embed/ue80QwXMRHg"
   },
   {
     "Title": "Captain Marvel",
-    "Url": "http://www.omdbapi.com/?i=tt4154664&apikey=3676265c",
+    "Url": "https://www.omdbapi.com/?i=tt4154664&apikey=3676265c",
     "Trailer": "https://www.youtube.com/embed/Z1BCujX3pw8"
   },
   {
     "Title": "Logan",
-    "Url": "http://www.omdbapi.com/?i=tt3315342&apikey=3676265c",
+    "Url": "https://www.omdbapi.com/?i=tt3315342&apikey=3676265c",
     "Trailer": "https://www.youtube.com/embed/Div0iP65aZo"
   }
-  
-
-  
 ]
