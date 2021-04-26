@@ -1,16 +1,11 @@
 //finding the root element
 const app = document.getElementById("root");
 
-//creating an element for the logo
-const logo = document.createElement("img");
-logo.src = "logo.png";
-
 //creating a container element
 const container = document.createElement("div");
 container.setAttribute("class", "container");
 
-//attaching the logo and the container to the root element
-app.appendChild(logo);
+//attaching the container to the root element
 app.appendChild(container);
 
 //the url is our endpoint and contains the data that we want to work with
