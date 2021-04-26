@@ -94,11 +94,12 @@ h1 {
   cursor: pointer;
 }
 
-iframe {
+.poster {
   width: 100%;
-  height: 68%;
-  margin: auto;
-  border: none;
+}
+
+.poster img {
+  width: 100%;
 }
 
 #modalHeader {
@@ -106,18 +107,29 @@ iframe {
   font-size: 30px;
 }
 
-#modalText {
-  margin: 5px 0 0 0;
+.information {
+  display: flex;
+}
+
+.information p {
+  margin: 0 10px;
+}
+
+.information p:first-of-type {
+  margin: 0 10px 0 0;
+}
+
+#modalPlot {
+  margin: 20px 0 0 0;
 }
 
 #modalHeader2 {
   margin: 20px 0 10px 0;
 }
 
-.poster {
+iframe {
   width: 100%;
-}
-
-.poster img {
-  width: 100%;
+  height: 60%;
+  margin: auto;
+  border: none;
 }

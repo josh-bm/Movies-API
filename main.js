@@ -63,9 +63,8 @@ fetch(url)
             document.getElementById("modalYear").innerHTML =
               "Year: " + obj.Year;
             document.getElementById("modalimdbRating").innerHTML =
-            "&#9733 " + obj.imdbRating;
-            document.getElementById("modalPlot").innerHTML =
-              "Plot: " + obj.Plot;
+              "&#9733 " + obj.imdbRating;
+            document.getElementById("modalPlot").innerHTML = obj.Plot;
             document.getElementById("modalTrailer").src = movie.Trailer;
           };
           // When the user clicks on <span> (x), close the modal
