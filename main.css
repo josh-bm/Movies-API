@@ -18,7 +18,7 @@ h1{
 }
 
 #root {
-  width: 95%;
+  width: 100%;
   max-width: 2500px;
   margin: 0 auto;
 }
@@ -41,6 +41,10 @@ h1{
 .card {
   margin: 1%;
   width: 18%;
+}
+
+.card img {
+  width: 100%;
 }
 
 /* The Modal (background) */
