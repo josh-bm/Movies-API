@@ -7,10 +7,18 @@
 
 /* Add Font type */
 body {
+  background-color: #171717;
+  color: white;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 20px 0;
 }
 
 #root {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 2500px;
   margin: 0 auto;
 }
 
@@ -26,11 +34,16 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .card {
-  margin: 1rem;
-  border: 1px solid gray;
+  margin: 1%;
+  width: 18%;
+}
+
+.card img {
+  width: 100%;
 }
 
 /* The Modal (background) */
@@ -52,7 +65,7 @@ body {
   background-color: #fefefe;
   margin: 1vh auto; /* 15% from the top and centered */
   padding: 20px;
-
+  color: white;
   border: 1px solid #888;
   width: 50vw; /* Could be more or less, depending on screen size */
   height: 75vh;
@@ -74,5 +87,19 @@ body {
 }
 
 iframe {
-  width: 100%;
+  width: 90%;
+  height: 70%;
+  margin-left: 5%;
+}
+
+#modalHeader {
+  text-align: center;
+  font-size: 30px;
+}
+#modalText {
+  text-align: center;
+}
+
+#modalHeader2 {
+  margin: 2%;
 }

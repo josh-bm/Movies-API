@@ -2,7 +2,7 @@
   {
     "Title": "Armageddon",
     "Url": "https://www.omdbapi.com/?t=Armageddon&apikey=789d41d5",
-    "Trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8"
+    "Trailer": "https://www.youtube.com/embed/kg_jH47u480"
   },
   {
     "Title": "The Avengers",
@@ -12,16 +12,44 @@
   {
     "Title": "Godzilla vs. Kong",
     "Url": "https://www.omdbapi.com/?i=tt5034838&apikey=789d41d5",
-    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+    "Trailer": "https://www.youtube.com/embed/odM92ap8_c0"
   },
   {
     "Title": "Wonder Woman 1984",
     "Url": "https://www.omdbapi.com/?i=tt7126948&apikey=789d41d5",
-    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+    "Trailer": "https://www.youtube.com/embed/1Q8fG0TtVAY"
   },
   {
     "Title": "Zack Snyder's Justice League",
     "Url": "https://www.omdbapi.com/?i=tt12361974&apikey=789d41d5",
-    "Trailer": "https://www.youtube.com/embed/eOrNdBpGMv8"
+    "Trailer": "https://www.youtube.com/embed/0QmSF7WUyN0"
+  },
+  {
+    "Title": "Guardians of the Galaxy 2",
+    "Url": "http://www.omdbapi.com/?i=tt3896198&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/dW1BIid8Osg"
+  },
+  {
+    "Title": "Black Panther",
+    "Url": "http://www.omdbapi.com/?i=tt1825683&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/xjDjIWPwcPU"
+  },
+  {
+    "Title": "Captain America",
+    "Url": "http://www.omdbapi.com/?i=tt0458339&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/JerVrbLldXw"
+  },
+  {
+    "Title": "Captain Marvel",
+    "Url": "http://www.omdbapi.com/?i=tt4154664&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/Z1BCujX3pw8"
+  },
+  {
+    "Title": "Logan",
+    "Url": "http://www.omdbapi.com/?i=tt3315342&apikey=3676265c",
+    "Trailer": "https://www.youtube.com/embed/Div0iP65aZo"
   }
+  
+
+  
 ]
